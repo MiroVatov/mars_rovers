@@ -1,4 +1,4 @@
-import pytest
+
 from mars_rover_task2_class import MarsRover
 
 
