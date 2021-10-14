@@ -57,6 +57,6 @@ def test_if_method_return_rover_to_previous_position_is_working_correct():
     mars_rover = MarsRover(plateau_width=5, plateau_height=5, x=0, y=2, direction='W')
     mars_rover.rover_move("M")
     mars_rover.return_rover_to_previous_position()
-    expected_result = '0' + ' ' + '2'
+    expected_result = '0' + ' ' + '3'
     actual_result = f"{mars_rover.x} {mars_rover.y}"
     assert expected_result == actual_result
