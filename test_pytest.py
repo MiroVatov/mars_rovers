@@ -3,7 +3,7 @@ from mars_rover_task2_class import MarsRover
 
 
 def test__init__():
-    mars_rover = MarsRover(plateau_width=5, plateau_height=4, x=1, y=2, direction='N')
+    mars_rover = MarsRover(plateau_width=5, plateau_height=3, x=1, y=2, direction='N')
     assert "N" == mars_rover.direction
     assert 1 == mars_rover.x
     assert 2 == mars_rover.y
