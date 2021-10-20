@@ -7,7 +7,7 @@ def test__init__():
     assert "N" == mars_rover.direction
     assert 1 == mars_rover.x
     assert 2 == mars_rover.y
-    assert 5 == mars_rover.plateau_height
+    assert 6 == mars_rover.plateau_height
 
 
 def test_method_check_print_final_output():
